@@ -1,0 +1,73 @@
+<odoo>
+    <data>
+
+        odoo.
+        <record id="partner_pricelist_association_view_search" model="ir.ui.view">
+            <field name="name">partner_pricelist_association.view.search</field>
+            <field name="model">partner.pricelist.association</field>
+            <field name="arch" type="xml">
+                <search string="">
+                    <field name="name"/>
+                    <field name="partner_ids"/>
+                    <field name="pricelist_id"/>
+                </search>
+            </field>
+        </record>
+
+        <record id="partner_pricelist_association_form" model="ir.ui.view">
+            <field name="name">partner.pricelist.association.form</field>
+            <field name="model">partner.pricelist.association</field>
+            <field name="arch" type="xml">
+                <form string="Category">
+                    <sheet>
+                        <div class="oe_title">
+                            <h1>
+                                <field name="name" placeholder="Category Title"/>
+                            </h1>
+                        </div>
+                        <group>
+                            <field name="description"/>
+                            <field name="pricelist_id" string="Pricelist"/>
+                        </group>
+                        <field name="partner_ids">
+                            <tree editable="bottom" create="False" delete="False" edit="False">
+                                <field name="name"/>
+                                <field name="email" widget="email"/>
+                                <field name="phone" widget="phone"/>
+                            </tree>
+                        </field>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+
+        <record id="partner_pricelist_association_tree" model="ir.ui.view">
+            <field name="name">partner.pricelist.association.tree</field>
+            <field name="model">partner.pricelist.association</field>
+            <field name="arch" type="xml">
+                <tree string="Pricelist Category">
+                    <field name="name"/>
+                    <field name="pricelist_id"/>
+                </tree>
+            </field>
+        </record>
+
+        <record id="purchase_menu_act_window" model="ir.actions.act_window">
+            <field name="name">Pricelist Category</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">partner.pricelist.association</field>
+            <field name="view_mode">tree,form</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                    There is no Pricelist Category.
+                </p>
+            </field>
+        </record>
+
+        <menuitem name="Pricelist Category"
+                  id="sale_sale_order_menu_inherit"
+                  parent="sale.product_menu_catalog"
+                  action="purchase_menu_act_window"
+                  sequence="10000"/>
+    </data>
+</odoo>
