@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="matrix_input_view_form" model="ir.ui.view">
+            <field name="name">matrix_input.view.form</field>
+            <field name="model">matrix.input</field>
+            <field name="arch" type="xml">
+                <form string="">
+                    <sheet>
+                        <group>
+                            <!-- <field name="fields_dict"/> -->
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+    </data>
+</odoo>

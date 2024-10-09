@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "Partner Price list Category",
+    'name': "Matrix module",
 
-    'summary': "Adds relation between res.partner and product.pricelist by adding a category to res.partner",
+    'summary': "A helper module to add product in Quotation, Price list matrix data",
 
     'description': """
-This module adds a mew 'category' fields to res.partner model,
-allowing users to assign categories to partners."
+Long description of module's purpose
     """,
 
     'author': "Saeid Karbaschian",
@@ -24,11 +23,8 @@ allowing users to assign categories to partners."
     # always loaded
     'data': [
         'security/ir.model.access.csv',
-        'views/res_partner.xml',
-        'views/partner_pricelist_association.xml',
-        'views/product_pricelist.xml',
-        'views/sale_order.xml',
-        # 'views/templates.xml',
+        'views/matrix_input.xml',
+        'views/sale_order_form.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
