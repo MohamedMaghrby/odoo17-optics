@@ -1,2 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-matrix_module.access_matrix_input,access_matrix_input,matrix_module.model_matrix_input,base.group_user,1,1,1,1
