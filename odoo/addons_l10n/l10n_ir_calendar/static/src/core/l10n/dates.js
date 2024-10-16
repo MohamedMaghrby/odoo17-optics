@@ -71,11 +71,8 @@ function parseDateCustom(value, options = {}) {
 function parseDateTimeCustom(value, options = {}) {
     return origDatesModule.parseDateTime(value, options)
 }
-
+if(session.calendar === "jalali"){
 odoo.define('l10n_ir_calendar.core.l10n.dates', [], function (require) {
-    const userCalendar = session.calendar;
-    console.log("User Calendar:", userCalendar);
-    console.log(session.user_context)
     const l10n_dates = require('@web/core/l10n/dates');
     origDatesModule.parseDate = l10n_dates.parseDate
     origDatesModule.parseDateTime = l10n_dates.parseDateTime
@@ -84,3 +81,4 @@ odoo.define('l10n_ir_calendar.core.l10n.dates', [], function (require) {
     l10n_dates.parseDateTime = parseDateTimeCustom;
     l10n_dates.parseDate = parseDateCustom;
 });
+}

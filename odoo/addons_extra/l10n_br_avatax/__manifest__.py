@@ -13,7 +13,7 @@
         'views/ir_logging_views.xml',
         'views/res_config_settings_views.xml',
         'data/l10n_br.ncm.code.csv',
-        'data/product_product.xml',
+        'data/product_template.xml',
     ],
     'demo': [
         'data/res_partner_demo.xml',

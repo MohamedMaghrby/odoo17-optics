@@ -2,6 +2,9 @@
 
 import {CalendarController} from "@web/views/calendar/calendar_controller";
 import {patch} from "@web/core/utils/patch";
+import {session} from "@web/session";
+import { CalendarCommonRenderer } from "@web/views/calendar/calendar_common/calendar_common_renderer";
+import { renderToString } from "@web/core/utils/render";
 
 class CalendarControllerJalali extends CalendarController {
     get today() {
@@ -34,6 +37,30 @@ class CalendarControllerJalali extends CalendarController {
         return this.date.jalaliDate.weekNumberFa;
     }
 
-}
 
+}
+if(session.calendar === "jalali"){
 patch(CalendarController.prototype, CalendarControllerJalali.prototype)
+
+const { DateTime } = luxon;
+
+patch(CalendarCommonRenderer.prototype, {
+
+    getHeaderHtml(date) {
+        const scale = this.props.model.scale;
+        var {
+            weekdayShort: weekdayShort,
+            weekdayLong: weekdayLong,
+            day,
+        } = DateTime.fromJSDate(date);
+        const jdate = new persianDate(date);
+        day = jdate.toLocale('en').date();
+        return renderToString(this.constructor.headerTemplate, {
+            weekdayShort,
+            weekdayLong,
+            day,
+            scale,
+        });
+    }
+});
+}

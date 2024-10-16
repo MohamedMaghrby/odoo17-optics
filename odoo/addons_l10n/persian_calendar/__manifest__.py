@@ -1,18 +1,31 @@
 # -*- coding: utf-8 -*-
-# Copyright (C) 2024-Today: Odoo Community Iran
-# @author: Odoo Community Iran (https://odoo-community.ir/
-# License LGPL-3.0 or later (http://www.gnu.org/licenses/lgpl.html).
 {
-    'name': "Persian Calendar",
-    'summary': """Persian Calendar""",
-    'description': """Persian Calendar""",
-    'author': "Odoo Community Iran",
-    'website': "https://odoo-community.ir/",
-    'category': 'Localization/Iran',
-    'images': ['static/description/theme_screenshot.jpg'],
-    'version': '1.0.2',
-    'license': 'LGPL-3',
-    'depends': ['base', 'web'],
+    'name': "persian_calendar",
+
+    'summary': "Short (1 phrase/line) summary of the module's purpose",
+
+    'description': """
+Long description of module's purpose
+    """,
+
+    'author': "My Company",
+    'website': "https://www.yourcompany.com",
+
+    # Categories can be used to filter modules in modules listing
+    # Check https://github.com/odoo/odoo/blob/15.0/odoo/addons/base/data/ir_module_category_data.xml
+    # for the full list
+    'category': 'Uncategorized',
+    'version': '0.1',
+
+    # any module necessary for this one to work correctly
+    'depends': ['base'],
+
+    # always loaded
+    'data': [
+        # 'security/ir.model.access.csv',
+        'views/views.xml',
+        'views/templates.xml',
+    ],
     'assets': {
         'web.assets_backend': [
             'persian_calendar/static/src/js/main.js',
@@ -26,6 +39,12 @@
             'persian_calendar/static/src/js/list.js',
             'persian_calendar/static/src/js/datetime_field.js',
             'persian_calendar/static/src/js/jdatetime.js',
+            'persian_calendar/static/src/js/calendar_hook.js',
+            'persian_calendar/static/src/js/jfullcalendar.js',
         ]
-    }
+    },
+    # only loaded in demonstration mode
+    'demo': [
+        'demo/demo.xml',
+    ],
 }

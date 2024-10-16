@@ -9,6 +9,7 @@ import {
 } from "@odoo/owl";
 
 import { loadCSS, loadJS } from "@web/core/assets";
+import {session} from "@web/session";
 
 
 function useFullCalendar(refName, params) {
@@ -144,9 +145,9 @@ const patchFullCalendar = function(){
     };
 
 }
-
-
+if(session.calendar === "jalali"){
 odoo.define('l10n_ir_calendar.views.calendar', [], function (require) {
     const calendar_hooks = require('@web/views/calendar/hooks');
     calendar_hooks.useFullCalendar = useFullCalendar
 });
+}

@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <record id="plastic_white" model="product.template">
+            <field name="name">پلاستيک سفيد</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="hc" model="product.template">
+            <field name="name">HC</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="green_ette" model="product.template">
+            <field name="name">اته سبز</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="gold_ette" model="product.template">
+            <field name="name">اته گلد</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="purple_ette" model="product.template">
+            <field name="name">اته بنفش</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photochromic" model="product.template">
+            <field name="name">فتوکروميک</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="polycarbonate" model="product.template">
+            <field name="name">پلي کربنات</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="size_60_ette" model="product.template">
+            <field name="name">اته سايز 60</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="ette_super_hydrophobic" model="product.template">
+            <field name="name">اته سوپر هايدرو فوبيک</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_smart_transition" model="product.template">
+            <field name="name">فتو اسمارت ترنزیشن</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_smart_normal" model="product.template">
+            <field name="name">فتو اسمارت معمولی</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="sky" model="product.template">
+            <field name="name">SKY</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="smart_1_67" model="product.template">
+            <field name="name">اسمارت 1.67</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_sky_violet" model="product.template">
+            <field name="name">فتو اسکای ویولت</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="smart_1_60" model="product.template">
+            <field name="name">اسمارت1.60</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="compact_smart_1_74" model="product.template">
+            <field name="name">اسمارت فشرده 1.74</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="smart_uv420" model="product.template">
+            <field name="name">اسمارت UV420</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_smart_transition_1_67" model="product.template">
+            <field name="name">اسمارت فتوترنزیشن 1.67</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="sky_green_photochromic" model="product.template">
+            <field name="name">فتوکرومیک سبز SKY</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="purple_sky" model="product.template">
+            <field name="name">بنفش Sky</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="sky_1_67" model="product.template">
+            <field name="name">1.67 Sky</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_smart_uv420" model="product.template">
+            <field name="name">فتو Smart UV420</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="blue_cut_sky" model="product.template">
+            <field name="name">Sky بلوکات</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="sky_hct" model="product.template">
+            <field name="name">Sky HCT</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="green_ette_xprim" model="product.template">
+            <field name="name">xprim اته سبز</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="purple_uv420_xprim" model="product.template">
+            <field name="name">xprim بنفش UV420</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="green_photo_xprim" model="product.template">
+            <field name="name">xprim فتو سبز</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="xprim_1_67" model="product.template">
+            <field name="name">xprim 1.67</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="ette_green_white" model="product.template">
+            <field name="name">اته سبز white</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="hc_white" model="product.template">
+            <field name="name">Hc white</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_green_white" model="product.template">
+            <field name="name">فتو سبز white</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="polycarbonate_white" model="product.template">
+            <field name="name">پلی کربنات white</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="ette_green_falcon" model="product.template">
+            <field name="name">اته سبز Falcon</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="blue_cut_falcon" model="product.template">
+            <field name="name">بلوکات Falcon</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="hct_falcon" model="product.template">
+            <field name="name">HCT Falcon</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_green_falcon" model="product.template">
+            <field name="name">فتو سبز Falcon</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_purple_falcon" model="product.template">
+            <field name="name">فتو بنفش Falcon</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="falcon_1_67" model="product.template">
+            <field name="name">1.67 Falcon</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="atteeh_super_hydrophobic_champion" model="product.template">
+            <field name="name">اته سوپر هیدروفوبیک Champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="bluecut_champion" model="product.template">
+            <field name="name">بلوکات Champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="champion_green_photo_transition" model="product.template">
+            <field name="name">فتو ترانزیشن سبز Champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="champion_purple_photo_transition" model="product.template">
+            <field name="name">فتو ترانزیشن بنفش Champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_bluecut_champion" model="product.template">
+            <field name="name">فتو بلوکات Champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="champion_1_60" model="product.template">
+            <field name="name">1.60 Champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="champion_1_67" model="product.template">
+            <field name="name">1.67 Champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_sky_brown" model="product.template">
+            <field name="name">فتو Brown SKY</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="unbreakable_sky" model="product.template">
+            <field name="name">Unbreakable SKY</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_polycarbonate_smart" model="product.template">
+            <field name="name">فتو پلی Smart</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="smart_super_hydrophobic_polycarbonate" model="product.template">
+            <field name="name">پلی کربنات سوپر هیدرو فوبیک Smart</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="ette_size_55_supervision" model="product.template">
+            <field name="name">اته سایز 55 سوپرویژن</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="hc_60_supervision" model="product.template">
+            <field name="name">HC 60 سوپرویژن</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="hc_55_supervision" model="product.template">
+            <field name="name">HC 55 سوپرویژن</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="seg_28_white_sky_right" model="product.template">
+            <field name="name">Seg 28 White Sky Right</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="seg_28_white_sky_left" model="product.template">
+            <field name="name">Seg 28 White Sky Left</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="seg_28_photo_sky_right" model="product.template">
+            <field name="name">Seg 28 Photo Sky Right</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="seg_28_photo_sky_left" model="product.template">
+            <field name="name">Seg 28 Photo Sky Left</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="progressive_white_sky_right" model="product.template">
+            <field name="name">Progressive White Sky Right</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="progressive_white_sky_left" model="product.template">
+            <field name="name">Progressive White Sky Left</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="progressive_photo_sky_right" model="product.template">
+            <field name="name">Progressive Photo Sky Right</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="progressive_photo_sky_left" model="product.template">
+            <field name="name">Progressive Photo Sky Left</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="smart_anti_glare" model="product.template">
+            <field name="name">Smart Anti Glare</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="smart_anti_infrared" model="product.template">
+            <field name="name">Smart Anti Infrared</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="et_schneider" model="product.template">
+            <field name="name">Et schneider</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_schneider" model="product.template">
+            <field name="name">photo schneider</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="1_60_schneider" model="product.template">
+            <field name="name">1.60 schneider</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="1_67_schneider" model="product.template">
+            <field name="name">1.67 schneider</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="falcon_55_hydro" model="product.template">
+            <field name="name">Falcon 55 Hydro</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="falcon_60_hydro" model="product.template">
+            <field name="name">Falcon 60 Hydro</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="white_blue_cut" model="product.template">
+            <field name="name">White blue cut</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="falcon_blue_control" model="product.template">
+            <field name="name">Falcon blue control</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_poly_champion" model="product.template">
+            <field name="name">Photo poly champion</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="1_60_uv420_smart" model="product.template">
+            <field name="name">1.60 uv 420 smart</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="1_67_uv420_smart" model="product.template">
+            <field name="name">1.67 uv 420 smart</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="schneider_blue_control" model="product.template">
+            <field name="name">Schneider blue control</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="et_hydro_neo" model="product.template">
+            <field name="name">Et Hydro Neo</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_green_neo" model="product.template">
+            <field name="name">Photo Green Neo</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="photo_violet_neo" model="product.template">
+            <field name="name">Photo Violet Neo</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="blue_cut_neo" model="product.template">
+            <field name="name">Blue Cut Neo</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="1_67_neo" model="product.template">
+            <field name="name">1.67 Neo</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="sky_1_56_blue_control" model="product.template">
+            <field name="name">Sky 1.56 blue control</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="sky_photo_blue_control" model="product.template">
+            <field name="name">Sky photo blue control</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+        <record id="1_74_falcon" model="product.template">
+            <field name="name">1.74 Falcon</field>
+            <field name="detailed_type">consu</field>
+            <field name="categ_id" ref="product.product_category_all"/>
+            <field name="uom_id" ref="uom.product_uom_unit"/>
+            <field name="uom_po_id" ref="uom.product_uom_unit"/>
+            <field name="product_add_mode">matrix</field>
+        </record>
+
+    </data>
+</odoo>

@@ -15,6 +15,7 @@ import { localization } from "@web/core/l10n/localization";
 import { ensureArray } from "@web/core/utils/arrays";
 import {DateTimePicker as DateTimePickerOrig} from "@web/core/datetime/datetime_picker";
 import {patch} from "@web/core/utils/patch";
+import {session} from "@web/session";
 
 const { DateTime, Info } = luxon;
 
@@ -723,5 +724,6 @@ export class DateTimePicker extends Component {
         this.shouldAdjustFocusDate = isValid && !this.props.range;
     }
 }
-
+if(session.calendar === "jalali"){
 patch(DateTimePickerOrig.prototype, DateTimePicker.prototype);
+}

@@ -56,8 +56,23 @@ function leftPad(number, targetLength) {
 }
 
 export const datetimePickerService = {
-    dependencies: ["popover"],
-    start(env, { popover: popoverService }) {
+   dependencies: ["popover", "orm", "user"],
+    async start(env, { popover: popoverService }) {
+        // Ensure the orm service is available
+        if (!env.services.orm) {
+            throw new Error("ORM service is not available");
+        }
+
+        // Fetch the user's calendar type
+        let calendarType = 'gregorian'; // Default to Gregorian if not set
+        try {
+            const user = await env.services.orm.read("res.users", [env.services.user.userId], ["calendar_type"]);
+            if (user && user.length > 0 && user[0].calendar_type) {
+                calendarType = user[0].calendar_type;
+            }
+        } catch (error) {
+            console.error("Failed to fetch user calendar type:", error);
+        }
         return {
             /**
              * @param {DateTimePickerHookParams} hookParams
@@ -336,8 +351,8 @@ export const datetimePickerService = {
                         return;
                     }
                     const [formattedValue] = safeConvert("format", value);
-
-                    if(luxon.DateTime.now().locale == 'fa-IR'){
+                    console.log(this)
+                    if(calendarType === 'shamsi'){
                         let jressult_str = ""
                         if(formattedValue.split(' ')[1]){
                             if(formattedValue.split(' ')[0].split('/')[2]){

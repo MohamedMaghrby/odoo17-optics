@@ -2,6 +2,7 @@
 
 import {patch} from "@web/core/utils/patch";
 import {CalendarYearRenderer} from "@web/views/calendar/calendar_year/calendar_year_renderer";
+import {session} from "@web/session";
 
 class CalendarYearRendererJalali extends CalendarYearRenderer {
     getDateWithMonth(month) {
@@ -10,5 +11,6 @@ class CalendarYearRendererJalali extends CalendarYearRenderer {
         return this.props.model.date.set({year:gd[0], month:gd[1], day:gd[2]}).toISO()
     }
 }
-
+if(session.calendar === "jalali"){
 patch(CalendarYearRenderer.prototype, CalendarYearRendererJalali.prototype)
+}

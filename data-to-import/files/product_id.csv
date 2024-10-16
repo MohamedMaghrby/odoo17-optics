@@ -1,0 +1,83 @@
+﻿product_name,id
+پلاستيک سفيد,plastic_white
+HC,hc
+اته سبز,green_ette
+اته گلد,gold_ette
+اته بنفش,purple_ette
+فتوکروميک,photochromic
+پلي کربنات,polycarbonate
+اته سايز 60,size_60_ette
+اته سوپر هايدرو فوبيک,ette_super_hydrophobic
+فتو اسمارت ترنزیشن,photo_smart_transition
+فتو اسمارت معمولی,photo_smart_normal
+SKY,sky
+اسمارت 1.67,smart_1_67
+فتو اسکای ویولت,photo_sky_violet
+اسمارت1.60,smart_1_60
+اسمارت فشرده 1.74,compact_smart_1_74
+اسمارت UV420,smart_uv420
+اسمارت فتوترنزیشن 1.67,photo_smart_transition_1_67
+فتوکرومیک سبز SKY,sky_green_photochromic
+بنفش Sky,purple_sky
+1.67 Sky,sky_1_67
+فتو Smart UV420,photo_smart_uv420
+Sky بلوکات,blue_cut_sky
+Sky HCT,sky_hct
+xprim اته سبز,green_ette_xprim
+xprim بنفش UV420,purple_uv420_xprim
+xprim فتو سبز,green_photo_xprim
+xprim 1.67,xprim_1_67
+اته سبز white,ette_green_white
+Hc white,hc_white
+فتو سبز white,photo_green_white
+پلی کربنات white,polycarbonate_white
+اته سبز Falcon,ette_green_falcon
+بلوکات Falcon,blue_cut_falcon
+HCT Falcon,hct_falcon
+فتو سبز Falcon,photo_green_falcon
+فتو بنفش Falcon,photo_purple_falcon
+1.67 Falcon,falcon_1_67
+اته سوپر هیدروفوبیک Champion,atteeh_super_hydrophobic_champion
+بلوکات Champion,bluecut_champion
+فتو ترانزیشن سبز Champion,champion_green_photo_transition
+فتو ترانزیشن بنفش Champion,champion_purple_photo_transition
+فتو بلوکات Champion,photo_bluecut_champion
+1.60 Champion,champion_1_60
+1.67 Champion,champion_1_67
+فتو Brown SKY,photo_sky_brown
+Unbreakable SKY,unbreakable_sky
+فتو پلی Smart,photo_polycarbonate_smart
+پلی کربنات سوپر هیدرو فوبیک Smart,smart_super_hydrophobic_polycarbonate
+اته سایز 55 سوپرویژن,ette_size_55_supervision
+HC 60 سوپرویژن,hc_60_supervision
+HC 55 سوپرویژن,hc_55_supervision
+Seg 28 White Sky Right,seg_28_white_sky_right
+Seg 28 White Sky Left,seg_28_white_sky_left
+Seg 28 Photo Sky Right,seg_28_photo_sky_right
+Seg 28 Photo Sky Left,seg_28_photo_sky_left
+Progressive White Sky Right,progressive_white_sky_right
+Progressive White Sky Left,progressive_white_sky_left
+Progressive Photo Sky Right,progressive_photo_sky_right
+Progressive Photo Sky Left,progressive_photo_sky_left
+Smart Anti Glare,smart_anti_glare
+Smart Anti Infrared,smart_anti_infrared
+Et schneider,et_schneider
+photo schneider,photo_schneider
+1.60 schneider,1_60_schneider
+1.67 schneider,1_67_schneider
+Falcon 55 Hydro,falcon_55_hydro
+Falcon 60 Hydro,falcon_60_hydro
+White blue cut,white_blue_cut
+Falcon blue control,falcon_blue_control
+Photo poly champion,photo_poly_champion
+1.60 uv 420 smart,1_60_uv420_smart
+1.67 uv 420 smart,1_67_uv420_smart
+Schneider blue control,schneider_blue_control
+Et Hydro Neo,et_hydro_neo
+Photo Green Neo,photo_green_neo
+Photo Violet Neo,photo_violet_neo
+Blue Cut Neo,blue_cut_neo
+1.67 Neo,1_67_neo
+Sky 1.56 blue control,sky_1_56_blue_control
+Sky photo blue control,sky_photo_blue_control
+1.74 Falcon,1_74_falcon

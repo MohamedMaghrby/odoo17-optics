@@ -19,15 +19,17 @@ Long description of module's purpose
     'version': '17.0.1.0.0',
 
     # any module necessary for this one to work correctly
-    'depends': ['product'],
+    'depends': ['base','sale_product_matrix'],
 
     # always loaded
     'data': [
-        "data/product.attribute.xml",
-        "data/product.template.attribute.value.xml",
+        "data/product_template.xml",
+        "data/product_attribute.xml",
+        "data/product_template_attribute_value.xml",
+        # "data/product_template_attribute_line.xml",
     ],
     # only loaded in demonstration mode
     'demo': [
-        # 'demo/demo.xml',
+        "data/product_template.xml",
     ],
 }

@@ -1,0 +1,14 @@
+<odoo>
+    <data>
+        <record id="product_attribute_cyl" model="product.attribute">
+            <field name="name">Cylinder</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">always</field>
+        </record>
+        <record id="product_attribute_sph" model="product.attribute">
+            <field name="name">Sphere</field>
+            <field name="display_type">radio</field>
+            <field name="create_variant">always</field>
+        </record>
+    </data>
+</odoo>

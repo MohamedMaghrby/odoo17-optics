@@ -1,5 +1,7 @@
 /** @odoo-module **/
 
+import {session} from "@web/session";
+
 const webSearchUtilsDatesModule = {};
 const webCoreL10NDatesModule = {}
 const webCoreDomainModule = {}
@@ -173,8 +175,7 @@ function getPeriodOptionsCustom(referenceMoment) {
   }
   return periodOptions;
 }
-
-
+if(session.calendar === "jalali"){
 odoo.define('l10n_ir_calendar.search.utils.dates', [], function (require) {
   const web_search_utils_dates = require('@web/search/utils/dates');
   const web_core_l10n_dates = require('@web/core/l10n/dates');
@@ -206,3 +207,4 @@ odoo.define('l10n_ir_calendar.search.utils.dates', [], function (require) {
   web_search_utils_dates.constructDateDomain = constructDateDomainCustom;
   return web_search_utils_dates;
 });
+}
