@@ -10,7 +10,9 @@
     'external_dependencies': {
         'python': ['khayyam'],
     },
-    'data': [],
+    'data': [
+        'views/res_user.xml',
+    ],
     'demo': [],
     'license': 'LGPL-3',
     'installable': True,
