@@ -4,8 +4,8 @@
     'countries': ['ir'],
     'category': 'Localization',
     'description': 'Jalali calendar, date and date-time widgets.',
-    'author': 'Hooshadoo',
-    'website': 'https://www.hooshadoo.com/',
+    'author': "Mohammad Saeid Karbaschian",
+    'website': "mskarbaschian@gmail.com",
     'depends': ['web'],
     'external_dependencies': {
         'python': ['khayyam'],

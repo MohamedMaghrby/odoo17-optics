@@ -1,0 +1,10 @@
+<odoo>
+    <data noupdate="0">
+        <record id="optic_product_matrix.product_attribute_cyl" model="product.attribute">
+            <field name="create_variant">dynamic</field>
+        </record>
+        <record id="optic_product_matrix.product_attribute_sph" model="product.attribute">
+            <field name="create_variant">dynamic</field>
+        </record>
+    </data>
+</odoo>

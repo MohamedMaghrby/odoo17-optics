@@ -61,4 +61,3 @@ ENV/
 env.bak/
 venv.bak/
 data_dir/
-odoo.conf

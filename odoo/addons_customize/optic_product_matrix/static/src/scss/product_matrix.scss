@@ -1,0 +1,61 @@
+.o_matrix_input_table {
+    .o_matrix_ps {
+        padding-left: $modal-inner-padding;
+    }
+    .o_matrix_pe {
+        padding-right: $modal-inner-padding;
+    }
+
+    // Removing input field=number arrows for consistent styling
+    .o_matrix_input {
+        &::-webkit-outer-spin-button,
+        &::-webkit-inner-spin-button {
+            -webkit-appearance: none;
+            margin: 0;
+        }
+        &[type=number] {
+            -moz-appearance: textfield;
+        }
+    }
+
+    .o_matrix_input_td {
+        border: none;
+        &:focus-within {
+            --table-accent-bg: none;
+            background-color: $o-view-background-color;
+            border-bottom: $o-black 1px solid;
+        }
+    }
+
+    // Styling for fixed headers and columns
+    th, td {
+        min-width: 100px;
+        max-width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    // Make header rows sticky
+    thead {
+        position: sticky;
+        top: 0;
+        z-index: 2;
+        background-color: $white;
+    }
+
+    // Make the first column sticky
+    th:first-child, td:first-child {
+        position: sticky;
+        left: 0;
+        z-index: 1;
+        background-color: $o-view-background-color; // Keeps the first column background consistent
+    }
+}
+
+// Wrapper to add scrolling for the table with max height and width
+.matrix-wrapper {
+    overflow: auto;
+    max-height: 80vh; // Keeps table within the viewport height for better scrolling
+    max-width: 100%;  // Allows horizontal scrolling if table width is larger than the viewport
+}

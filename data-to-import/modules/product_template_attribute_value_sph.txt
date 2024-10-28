@@ -1,4 +1,124 @@
 
+            <record id="sph_-_20__0" model="product.attribute.value">
+                <field name="name">-20.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_19__75" model="product.attribute.value">
+                <field name="name">-19.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_19__5" model="product.attribute.value">
+                <field name="name">-19.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_19__25" model="product.attribute.value">
+                <field name="name">-19.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_19__0" model="product.attribute.value">
+                <field name="name">-19.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_18__75" model="product.attribute.value">
+                <field name="name">-18.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_18__5" model="product.attribute.value">
+                <field name="name">-18.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_18__25" model="product.attribute.value">
+                <field name="name">-18.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_18__0" model="product.attribute.value">
+                <field name="name">-18.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_17__75" model="product.attribute.value">
+                <field name="name">-17.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_17__5" model="product.attribute.value">
+                <field name="name">-17.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_17__25" model="product.attribute.value">
+                <field name="name">-17.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_17__0" model="product.attribute.value">
+                <field name="name">-17.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_16__75" model="product.attribute.value">
+                <field name="name">-16.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_16__5" model="product.attribute.value">
+                <field name="name">-16.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_16__25" model="product.attribute.value">
+                <field name="name">-16.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_16__0" model="product.attribute.value">
+                <field name="name">-16.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_15__75" model="product.attribute.value">
+                <field name="name">-15.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_15__5" model="product.attribute.value">
+                <field name="name">-15.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_-_15__25" model="product.attribute.value">
+                <field name="name">-15.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
             <record id="sph_-_15__0" model="product.attribute.value">
                 <field name="name">-15.0</field>
                 <field name="default_extra_price">1.0</field>
@@ -649,6 +769,198 @@
     
             <record id="sph_+_12__0" model="product.attribute.value">
                 <field name="name">12.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_12__25" model="product.attribute.value">
+                <field name="name">12.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_12__5" model="product.attribute.value">
+                <field name="name">12.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_12__75" model="product.attribute.value">
+                <field name="name">12.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_13__0" model="product.attribute.value">
+                <field name="name">13.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_13__25" model="product.attribute.value">
+                <field name="name">13.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_13__5" model="product.attribute.value">
+                <field name="name">13.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_13__75" model="product.attribute.value">
+                <field name="name">13.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_14__0" model="product.attribute.value">
+                <field name="name">14.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_14__25" model="product.attribute.value">
+                <field name="name">14.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_14__5" model="product.attribute.value">
+                <field name="name">14.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_14__75" model="product.attribute.value">
+                <field name="name">14.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_15__0" model="product.attribute.value">
+                <field name="name">15.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_15__25" model="product.attribute.value">
+                <field name="name">15.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_15__5" model="product.attribute.value">
+                <field name="name">15.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_15__75" model="product.attribute.value">
+                <field name="name">15.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_16__0" model="product.attribute.value">
+                <field name="name">16.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_16__25" model="product.attribute.value">
+                <field name="name">16.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_16__5" model="product.attribute.value">
+                <field name="name">16.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_16__75" model="product.attribute.value">
+                <field name="name">16.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_17__0" model="product.attribute.value">
+                <field name="name">17.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_17__25" model="product.attribute.value">
+                <field name="name">17.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_17__5" model="product.attribute.value">
+                <field name="name">17.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_17__75" model="product.attribute.value">
+                <field name="name">17.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_18__0" model="product.attribute.value">
+                <field name="name">18.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_18__25" model="product.attribute.value">
+                <field name="name">18.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_18__5" model="product.attribute.value">
+                <field name="name">18.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_18__75" model="product.attribute.value">
+                <field name="name">18.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_19__0" model="product.attribute.value">
+                <field name="name">19.0</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_19__25" model="product.attribute.value">
+                <field name="name">19.25</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_19__5" model="product.attribute.value">
+                <field name="name">19.5</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_19__75" model="product.attribute.value">
+                <field name="name">19.75</field>
+                <field name="default_extra_price">1.0</field>
+                <field name="attribute_id" ref="product_attribute_sph"/>
+            </record>
+    
+            <record id="sph_+_20__0" model="product.attribute.value">
+                <field name="name">20.0</field>
                 <field name="default_extra_price">1.0</field>
                 <field name="attribute_id" ref="product_attribute_sph"/>
             </record>
